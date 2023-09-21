@@ -1,0 +1,203 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Start from here */
+
+body {
+  color: white;
+  background: #1b1924;
+  font-family: Inter, sans-serif;
+  user-select: none;
+}
+
+.container {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  width: 24.375rem;
+  margin: 0 auto;
+  height: 100vh;
+  /*gap: 0.123em 0;*/
+}
+
+.logo {
+  width: 5em;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#endorsement-input {
+  /*flex: 1;*/
+  /*align-self: center;*/
+  color: #8f8f8f;
+  width: 100%;
+  min-height: 7rem;
+  /*height: 350px;*/
+  text-align: start;
+  border-radius: 5px;
+  border: none;
+  background: #444059;
+  padding: 0.5em 1em;
+  margin-bottom: 8px;
+  line-height: 1.2rem;
+}
+
+.from-to {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: stretch;*/
+  margin-bottom: 8px;
+}
+
+#endorsement-from,
+#endorsement-to {
+  color: #8f8f8f;
+  background: #444059;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  height: 2em;
+  line-height: 2em;
+}
+
+#endorsement-from {
+  margin-right: 3px;
+}
+
+#endorsement-to {
+  margin-left: 3px;
+}
+
+.publish {
+  text-align: center;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  color: #04131c;
+  background: #28a9f1;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2.5em;
+  height: 2.5em;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+.endorsement-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.comments {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*max-height: 800px;*/
+  /*overflow-y: auto;*/
+}
+
+.list-block {
+  /*flex: 1;*/
+  color: #1b1924;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75em;
+  gap: 0.5em;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.list-block-none {
+  display: none;
+}
+
+.list-from-like {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-count-like {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-header-footer {
+  font-weight: bold;
+}
+
+.icon {
+  cursor: pointer;
+}
